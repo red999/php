@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link href="style3.css" rel="stylesheet">
+        <style>
+            
+            a:nth-child(odd){
+                color: floralwhite;
+            }
+            
+            .questions {
+                width: 50%;
+                height: 50%;
+                margin: auto;
+                margin-top: 10%;
+                text-align: center;
+                
+            }
+            
+            .questions div{
+                display: inline-block;
+                line-height: 150px;
+                background-color: aquamarine;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                text-align: center;
+                margin: auto;
+                box-sizing: border-box;
+                
+                -webkit-transition: linear 1s;
+            }
+    
+            .questions div:hover {
+                -webkit-transform: scale(1.1, 1.1);
+                border: 1px solid green;
+            }
+            
+            .questions div:nth-child(odd) {
+                background-color: black;
+                  
+                border: black 1px solid;
+                
+            }
+            
+            .questions div:nth-child(odd):hover {
+                -webkit-transform: scale(1.1, 1.1);
+                border: 1px solid white;
+            }
+            
+            
+        </style>
+
+    </head>
+    
+    <body>
+        <div class = "questions">
+            <div id = "about">
+                <a href = "who_we_are">who are we</a>
+            </div>
+            <div id = "about">
+                <a href = "who_we_are">who are we</a>
+            </div>
+            <div id = "about">
+                <a href = "who_we_are">what usefull</a>
+            </div>
+            <div id = "about">
+                <a href = "who_we_are">contacts</a>
+            </div>
+            
+            <div id = "about">
+                <a href = "who_we_are">who are we</a>
+            </div>
+            <div id = "about">
+                <a href = "who_we_are">what usefull</a>
+            </div>
+            <div id = "about">
+                <a href = "who_we_are">contacts</a>
+            </div>
+            
+        </div>
+        
+    <footer>
+        <p>Posted by: Red Hood</p>
+        <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+    </footer>
+    
+    </body>
+</html>
